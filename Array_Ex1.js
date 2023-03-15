@@ -16,6 +16,7 @@ let customerName = ['Sofia','David','Juan']
 
 //Part2
 customerName.push('Sara','Austin')
+customerName.shift();
 
 //Part3
 customerName.splice(customerName.indexOf('David')+1,0,'Renata');
